@@ -1,0 +1,30 @@
+﻿@model EntityLayer.Concrete.Category
+@{
+    ViewBag.Title = "Statistics";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+<br />
+<h2>İstatistik Sayfası</h2>
+
+<div style="background-color:greenyellow;padding:35px;margin:20px;height:100px;width:200px;font-size:25px;display:inline-block;vertical-align:top;">
+    <center>@ViewBag.dgr1</center>
+    <p style="font-size:15px;">Toplam Kategori</p>
+</div>
+
+<div style="background-color:mediumpurple;padding:35px;margin:20px;height:100px;width:200px;font-size:25px;display:inline-block;vertical-align:top;">
+    <center>@ViewBag.dgr2</center> 
+    <p style="font-size:10px;">Yazılım Kategorisindeki Başlıklar</p>
+</div>
+
+<div style="background-color:cornflowerblue;padding:35px;margin:20px;height:100px;width:200px;font-size:25px;display:inline-block;vertical-align:top;">
+    <center>@ViewBag.dgr3</center> 
+    <p style="font-size:10px;">'a'Harfi Geçen Yazarlar</p>
+</div>
+<div style="background-color:hotpink;padding:35px;margin:20px;height:100px;width:200px;font-size:25px;display:inline-block;vertical-align:top;">
+    <center>@ViewBag.dgr4</center> 
+    <p style="font-size:15px;">Max Başlık</p>
+</div>
+<div style="background-color:darkorange;padding:35px;margin:20px;height:100px;width:200px;font-size:25px;display:inline-block;vertical-align:top;">
+    <center>@ViewBag.dgr5</center>
+    <p style="font-size:15px;">Durum Farkı</p>
+</div>
